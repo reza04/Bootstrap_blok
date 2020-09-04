@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" >
+    
+    <title>Hello, world!</title>
+    <style>
+        #overview{
+            background-image: url(images/gambar10.jpg);
+            background-size: cover;
+        }
+        hr{
+            width: 100%;
+        }
+        @media(max-width: 575.98px){
+            #overview-image{
+                display: none;
+            }
+            .container-fluid{
+                box-sizing: content-box;
+            }
+            /* untuk membesarkan gambar */
+            #navigation{
+                display: none;
+            }
+            #description h1{
+                font-size: 2rem;
+            }
+            #description p{
+                font-size: 1rem;
+            }
+            .list-article{
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="row border">
+            Header
+        </div>
+        <div class="row ">
+            <div class="col-sm-8 border">
+                content
+            </div>
+            <div class="col-sm-4 border">
+                sidebar
+            </div>
+        </div>
+        <div class="row border">
+            <footer>Copyright @2020</footer>
+        </div>
+    </div> -->
+    <!-- block header -->
+    <div class="container">
+        <div class="row" id="header">
+            <div id="logo" class="col-6">
+                <a href="index.html">
+                    <img src="images/gambar9.jpg" alt="logo" width="150" height="50">
+                </a>
+            </div>
+            <div id="navigation" class="col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#"> Home</a> 
+                    </li>
+                    <li>
+                        <a class="nav-link text-uppercase text-dark" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-uppercase text-dark" href="#">Contact Us</a>    
+                    </li>
+                    <li>
+                        <a class="nav-link text-uppercase text-dark" href="#"> Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- blokc overview -->
+    <div id="overview" class="container-fluid pl-5">
+        <div class="row">
+            <div id="description" class="col-6">
+                <h1 class="text-light">Gunung Bromo</h1>
+                <p class="text-light">beatae omnis tenetur rem nemo libero laudantium impedit quidem voluptas similique sit! Voluptatem tempora voluptas numquam.</p>
+                <a class="btn btn-light" href="#">Read More</a>
+            </div>
+            <div id="overview-image" class="col-6">
+                <img src="images/gambar10.jpg" alt="overview" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- block artikel -->
+    <div class="container" id="article ">
+        <div class="row">
+            <div id="content" class="col-sm-8 mt-4">
+                <div class="list-article " id="article-1">
+                        <img class="w-100" src="images/gambar1.jpg" alt="gambar">
+                    <a href="#">artikel</a>
+                    <div id="author">
+                        <img width="48" height="48" src="images/bunga.jpg" alt="gambar" class="rounded-circle float-left">
+                        <p class="float-left pt-3 pl-2"> Reza Aditya 4 September 2020</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <h2 lass="display-4">Keindahan Gunung Bromo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, magni, expedita distinctio aliquid aperiam laborum quas nulla, sed harum voluptate reprehenderit eius rerum iure! Deleniti quisquam odit maiores sit dolor.</p>
+                    <a class="btn btn-danger" href="">Read More</a>
+                </div>
+            </div>
+            <div id="sidebar" class="col-sm-4 mt-4">
+                <ul class="list-group">
+                    <li class="list-group-item" id=artikel><a href="#article-1">Di SMK kita hebat</a></li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- block footer -->
+    <div class="container-fluid mt-4 bg-secondary">
+        <div class="row text-light">
+            <div class="col-sm-3">
+                <h2>Tentang Loker</h2>
+                <p>Pionir istilah loker identik dengan lowongan kerja, situs loker.id hadir sejak 2007 mempermudah cari pekerjaan dan perekrutan karyawan.</p>
+                <p>Informasi Pemasangan Iklan:
+                    Telp / SMS / WA : 082114553331
+                    (Mon - Sat, 8:30am - 5:30pm)
+                    Email: info@loker.id</p>
+                </div>
+                <div class="col-sm-3">
+                    <h2>Tentang Kami</h2>
+                    <p>Hubungi Kami</p>
+                    <p>Pusat Bantuan</p>
+                    <p>Logo</p>
+                    <p>Kebijakan Privasi</p>
+                    <p>Kondisi dan Ketentuan</p>
+                </div>
+                <div class="col-sm-3">
+                    <h2>Pencari Kerja</h2>
+                    <p>Registrasi Pencari Kerja</p>
+                    <p>Buat Resume Online</p>
+                    <p>Cari Lowongan Kerja</p>
+                    <p>Job Alerts</p>
+                    <p>Kategori Loker</p>
+                    <p>Tips Loker</p>
+                </div>
+                <div class="col-3">
+                    <h2>Perusahaan</h2>
+                    <p>Registrasi Perusahaan</p>
+                    <p>Pasang Lowongan</p>
+                    <p>Produk</p>
+                </div>
+                <div class="text-light col-sm-12">
+                    <hr>
+                    <br>
+                    <p>Hak Cipta © 2020 Reza Ap.Com</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="asset/js/jquery-3.5.1.slim.min.js"></script>
+        <script src="asset/js/umd/popper.min.js"></script>
+        <script src="asset/js/bootstrap.min.js"></script>
+        <script>
+            x=document.getElementsByClassName("tes")[0];
+            y=x.parentNode.parentNode;
+            x.innerHTML=y.offsetWidth;
+        </script>
+    </body>
+    </html>
